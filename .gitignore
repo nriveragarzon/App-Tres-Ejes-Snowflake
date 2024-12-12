@@ -1,0 +1,10 @@
+# Ignorar entornos virtuales
+.venv/
+
+# Ignorar __pycache__
+__pycache__/
+
+# Ignorar archivos dentro de .streamlit, excepto .gitkeep
+.streamlit/secrets.toml 
+.streamlit/Planta.xlsx 
+!.streamlit/.gitkeep
